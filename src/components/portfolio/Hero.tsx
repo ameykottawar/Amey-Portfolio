@@ -2,7 +2,7 @@ const Hero = () => (
   <section id="hero" className="min-h-screen flex flex-col justify-center relative hero-grid px-6 md:px-16 pt-14">
     <div className="max-w-7xl mx-auto w-full">
       <div className="hero-line">
-        <span className="font-body text-xs tracking-[0.3em] uppercase text-warm-muted">Portfolio — 2025</span>
+        <span className="font-body text-xs tracking-[0.3em] uppercase text-warm-muted">​</span>
       </div>
       <h1 className="hero-line font-display font-[800] text-foreground leading-[0.92] mt-6"
           style={{ fontSize: "clamp(3rem, 10vw, 9rem)" }}>
