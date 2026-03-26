@@ -1,16 +1,42 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import CustomCursor from "@/components/portfolio/CustomCursor";
+import Navbar from "@/components/portfolio/Navbar";
+import Hero from "@/components/portfolio/Hero";
+import About from "@/components/portfolio/About";
+import Experience from "@/components/portfolio/Experience";
+import ProductWork from "@/components/portfolio/ProductWork";
+import Projects from "@/components/portfolio/Projects";
+import Skills from "@/components/portfolio/Skills";
+import Education from "@/components/portfolio/Education";
+import Certifications from "@/components/portfolio/Certifications";
+import Footer from "@/components/portfolio/Footer";
+import ScrollReveal from "@/components/portfolio/ScrollReveal";
 
-// IMPORTANT: Fully REPLACE this with your own code
-const PlaceholderIndex = () => {
-  // PLACEHOLDER: Replace this entire return statement with the user's app.
-  // The inline background color is intentionally not part of the design system.
-  return (
-    <div className="flex min-h-screen items-center justify-center" style={{ backgroundColor: '#fcfbf8' }}>
-      <img data-lovable-blank-page-placeholder="REMOVE_THIS" src="/placeholder.svg" alt="Your app will live here!" />
-    </div>
-  );
-};
+const SectionDivider = () => <div className="section-divider max-w-7xl mx-auto" />;
 
-const Index = PlaceholderIndex;
+const Index = () => (
+  <>
+    <CustomCursor />
+    <div className="noise-overlay" />
+    <Navbar />
+    <ScrollReveal />
+    <Hero />
+    <SectionDivider />
+    <About />
+    <SectionDivider />
+    <Experience />
+    <SectionDivider />
+    <ProductWork />
+    <SectionDivider />
+    <Projects />
+    <SectionDivider />
+    <Skills />
+    <SectionDivider />
+    <Education />
+    <SectionDivider />
+    <Certifications />
+    <SectionDivider />
+    <Footer />
+  </>
+);
 
 export default Index;
