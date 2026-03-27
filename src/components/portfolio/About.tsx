@@ -54,11 +54,10 @@ const About = () => (
         </div>
         <div className="reveal" style={{ transitionDelay: "0.1s" }}>
           <p className="font-body text-sm leading-relaxed text-warm-muted">
-            I'm a Product Management Associate at Frido, where I drive end-to-end
-            delivery of AI-powered features and ecommerce solutions. I sit at the
-            intersection of product strategy, engineering, and data — comfortable
-            writing a PRD in the morning and debugging an API integration by afternoon.
-            Currently pursuing my B.Tech in Electronics & Telecommunication at VIIT Pune.
+           I’m a product builder focused on turning real user problems into scalable, high-impact solutions.
+Currently driving end-to-end product development—from discovery to launch and iteration—while working closely with data and customer insights.
+I blend product thinking with AI tools, automation, and no-code to move faster and smarter.
+Strong believer in building, measuring, and continuously refining products that actually deliver value.
           </p>
           <div className="grid grid-cols-2 gap-4 mt-10">
             {stats.map((s) => (
