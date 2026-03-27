@@ -14,7 +14,7 @@ const Hero = () => (
       </h1>
       <p className="hero-line font-serif italic text-warm-muted mt-6"
          style={{ fontSize: "clamp(1rem, 2.5vw, 1.5rem)" }}>
-        Product-focused engineer building AI-powered experiences.
+        Product-focused engineer following this: User Problem → Insight → Hypothesis → Build → Measure → Iterate.
       </p>
       <div className="hero-line flex gap-4 mt-10">
         <a href="#work" className="inline-flex items-center gap-2 px-6 py-3 bg-foreground text-primary-foreground font-body text-sm tracking-wide rounded-full hover:opacity-90 transition-opacity">
