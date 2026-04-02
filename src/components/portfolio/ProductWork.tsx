@@ -27,7 +27,7 @@ const ProductWork = () => (
               {c.title}
             </h3>
             <p className="relative font-body text-xs text-warm-muted mt-2 leading-relaxed">{c.desc}</p>
-            <a href="#" className="relative inline-block font-body text-xs text-foreground mt-4 group-hover:underline">
+            <a href={(c as any).link || "#"} target={(c as any).link ? "_blank" : undefined} rel={(c as any).link ? "noopener noreferrer" : undefined} className="relative inline-block font-body text-xs text-foreground mt-4 group-hover:underline">
               View →
             </a>
           </div>
