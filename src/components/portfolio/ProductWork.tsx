@@ -1,12 +1,27 @@
 import traveleaseLogo from "@/assets/travelease-logo.png";
+import parkplusLogo from "@/assets/parkplus-logo.png";
 
-const cards = [
+interface Card {
+  tag: string;
+  title: string;
+  desc: string;
+  link?: string;
+  image?: string;
+}
+
+const cards: Card[] = [
   {
     tag: "Case Study",
     title: "TravelEase — Accessibility Travel App",
     desc: "End-to-end product case study for a mobile app reimagining travel for people with mobility challenges — covering personas, competitive analysis, feature prioritization, and go-to-market strategy.",
     link: "https://www.notion.so/TravelEase-Accessibility-Travel-App-Product-Case-Study-3360ecde878081aa8e03ff3477b62b8b",
     image: traveleaseLogo,
+  },
+  {
+    tag: "Case Study",
+    title: "Park+ — Customer Support, UX & Payments",
+    desc: "Analyzed 500+ user reviews to uncover trust and usability issues in Park+'s car ownership super-app — proposing solutions for customer support, home screen clutter, and payment reliability.",
+    image: parkplusLogo,
   },
 ];
 
