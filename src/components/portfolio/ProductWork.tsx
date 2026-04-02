@@ -1,11 +1,5 @@
 const cards = [
-  { tag: "Case Study", title: "AI Chatbot & Knowledge Automation", desc: "Designed and shipped an AI-powered support chatbot with automated knowledge workflows for Frido, reducing support load and improving user self-service at scale." },
   { tag: "Case Study", title: "TravelEase — Accessibility Travel App", desc: "End-to-end product case study for a mobile app reimagining travel for people with mobility challenges — covering personas, competitive analysis, feature prioritization, and go-to-market strategy.", link: "https://www.notion.so/TravelEase-Accessibility-Travel-App-Product-Case-Study-3360ecde878081aa8e03ff3477b62b8b" },
-  { tag: "PRD", title: "Checkout & Discovery Overhaul", desc: "End-to-end product spec for two key ecommerce features that improved the purchase funnel and product findability — resulting in a 40% conversion lift." },
-  { tag: "Research", title: "Arcatron → mobility.myfrido Migration", desc: "Led the full rebranding and platform migration. Conducted competitor benchmarking and user trials to validate the new product architecture." },
-  { tag: "Notion", title: "CX Insights Repository", desc: "Synthesized customer feedback, support queries, and usage data into a living insights repo used to drive a 30% improvement in customer experience score." },
-  { tag: "Slides", title: "User Trial & Research Framework", desc: "The research playbook used to validate new product ideas at Frido — covering user trials, competitor benchmarking, and acceptance criteria." },
-  { tag: "PDF", title: "BhojanBook — SaaS Product Design", desc: "Full product design for a SaaS subscription management platform for mess and tiffin businesses, built for non-technical users." },
 ];
 
 const ProductWork = () => (
