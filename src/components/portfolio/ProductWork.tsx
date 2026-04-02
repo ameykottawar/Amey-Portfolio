@@ -38,14 +38,14 @@ const ProductWork = () => (
           >
             <div className="absolute inset-0 bg-foreground/0 group-hover:bg-foreground/5 transition-colors duration-300 z-10 pointer-events-none" />
             {c.image && (
-              <div className="w-full h-40 flex items-center justify-center bg-[#e8ddd6] rounded-t-lg overflow-hidden">
+              <div className="w-full h-52 flex items-center justify-center bg-[#e8ddd6] rounded-t-lg overflow-hidden">
                 <img
                   src={c.image}
                   alt={c.title}
                   loading="lazy"
                   width={512}
                   height={512}
-                  className="h-28 w-28 object-contain group-hover:scale-105 transition-transform duration-300"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                 />
               </div>
             )}
