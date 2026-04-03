@@ -1,5 +1,6 @@
 import traveleaseLogo from "@/assets/travelease-logo.png";
 import parkplusLogo from "@/assets/parkplus-logo.png";
+import noiseLogo from "@/assets/noise-logo.png";
 
 interface Card {
   tag: string;
@@ -10,6 +11,13 @@ interface Card {
 }
 
 const cards: Card[] = [
+  {
+    tag: "Case Study",
+    title: "Noise — Product Case Study",
+    desc: "Product case study analyzing Noise's wearable tech ecosystem — covering market positioning, user experience, and growth strategy for India's leading smartwatch brand.",
+    link: "https://drive.google.com/file/d/1LR5ic1rLvUuRqKbHYhEjEjMb8lMj2wie/view?usp=drive_link",
+    image: noiseLogo,
+  },
   {
     tag: "Case Study",
     title: "TravelEase — Accessibility Travel App",
