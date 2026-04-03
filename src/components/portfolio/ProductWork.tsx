@@ -21,7 +21,7 @@ const cards: Card[] = [
     tag: "Case Study",
     title: "Park+ — Customer Support, UX & Payments",
     desc: "Analyzed 500+ user reviews to uncover trust and usability issues in Park+'s car ownership super-app — proposing solutions for customer support, home screen clutter, and payment reliability.",
-    link: "/Park_Case_Study.pdf",
+    link: "https://drive.google.com/file/d/1R-TG1HGudmRiIUUW67vO9ppeX_GHk4tx/view?usp=sharing",
     image: parkplusLogo,
   },
 ];
