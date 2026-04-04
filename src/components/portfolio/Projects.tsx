@@ -4,6 +4,8 @@ const projects = [
     name: "BhojanBook",
     desc: "SaaS platform for mess & tiffin businesses to manage subscriptions, meal tracking, and billing.",
     tags: ["SaaS", "Product Design", "Non-technical Users"],
+    githubUrl: "https://github.com/ameykottawar/bhojanbook.git",
+    liveUrl: "https://bhojanbook.vercel.app/",
   },
   {
     num: "02",
