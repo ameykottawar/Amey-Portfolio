@@ -39,8 +39,8 @@ const Projects = () => (
               ))}
             </div>
             <div className="flex gap-3 shrink-0">
-              <a href="#" className="font-body text-xs text-foreground hover:underline">GH</a>
-              <a href="#" className="font-body text-xs text-foreground hover:underline">Live</a>
+              <a href={p.githubUrl} target="_blank" rel="noopener noreferrer" className="font-body text-xs text-foreground hover:underline">GH</a>
+              <a href={p.liveUrl} target="_blank" rel="noopener noreferrer" className="font-body text-xs text-foreground hover:underline">Live</a>
             </div>
           </div>
         ))}
