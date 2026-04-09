@@ -12,7 +12,7 @@ const Education = () => (
   <section id="education" className="px-6 md:px-16 py-24">
     <div className="max-w-7xl mx-auto">
       <span className="font-body text-xs tracking-[0.3em] uppercase text-warm-muted reveal">006 — Education</span>
-      <div className="mt-12 grid md:grid-cols-2 gap-6">
+     <div className="mt-12 grid gap-6">
         {cards.map((c) => (
           <div
             key={c.degree}
