@@ -3,7 +3,8 @@ const cards = [
     degree: "B.Tech in Electronics & Telecommunication",
     institution: "Vishwakarma Institute of Information Technology, Pune",
     years: "2021 – 2025",
-    desc: "CGPA: 8.2. Focused on systems thinking and engineering fundamentals, with extracurriculars in entrepreneurship and product leadership.",
+    cgpa: "CGPA: 8.2",
+    desc: "Focused on systems thinking and engineering fundamentals, with extracurriculars in entrepreneurship and product leadership.",
     highlight: false,
   },
 ];
@@ -12,7 +13,7 @@ const Education = () => (
   <section id="education" className="px-6 md:px-16 py-24">
     <div className="max-w-7xl mx-auto">
       <span className="font-body text-xs tracking-[0.3em] uppercase text-warm-muted reveal">006 — Education</span>
-     <div className="mt-12 grid gap-6">
+      <div className="mt-12 grid gap-6">
         {cards.map((c) => (
           <div
             key={c.degree}
@@ -27,6 +28,7 @@ const Education = () => (
               {c.degree}
             </h3>
             <p className="font-body text-xs mt-1" style={{ color: c.highlight ? "#A89C94" : "#7A7068" }}>{c.institution}</p>
+            <p className="font-body text-xs mt-4" style={{ color: c.highlight ? "#A89C94" : "#7A7068" }}>{c.cgpa}</p>
             <p className="font-body text-xs mt-4 leading-relaxed" style={{ color: c.highlight ? "rgba(221,208,200,0.8)" : "#7A7068" }}>
               {c.desc}
             </p>
