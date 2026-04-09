@@ -4,7 +4,7 @@ const projects = [
     name: "BhojanBook",
     desc: "SaaS platform for mess & tiffin businesses to manage subscriptions, meal tracking, and billing.",
     tags: ["SaaS", "Product Design", "Non-technical Users"],
-    githubUrl: "https://github.com/ameykottawar/bhojanbook.git",
+    githubUrl: "https://github.com/ameykottawar/bhojanbook",
     liveUrl: "https://bhojanbook.vercel.app/",
   },
   {
@@ -12,6 +12,7 @@ const projects = [
     name: "AskData",
     desc: "Natural language data querying interface for non-technical users to extract business insights.",
     tags: ["Python", "SQL", "NLP", "Backend"],
+    githubUrl: "https://github.com/ameykottawar/askdata",
   },
 ];
 
@@ -39,8 +40,16 @@ const Projects = () => (
               ))}
             </div>
             <div className="flex gap-3 shrink-0">
-              <a href={p.githubUrl} target="_blank" rel="noopener noreferrer" className="font-body text-xs text-foreground hover:underline">GH</a>
-              <a href={p.liveUrl} target="_blank" rel="noopener noreferrer" className="font-body text-xs text-foreground hover:underline">Live</a>
+              {p.githubUrl && (
+                <a href={p.githubUrl} target="_blank" rel="noopener noreferrer" className="font-body text-xs text-foreground hover:underline">
+                  GH
+                </a>
+              )}
+              {p.liveUrl && (
+                <a href={p.liveUrl} target="_blank" rel="noopener noreferrer" className="font-body text-xs text-foreground hover:underline">
+                  Live
+                </a>
+              )}
             </div>
           </div>
         ))}
