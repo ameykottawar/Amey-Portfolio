@@ -6,13 +6,6 @@ const cards = [
     desc: "CGPA: 8.2. Focused on systems thinking and engineering fundamentals, with extracurriculars in entrepreneurship and product leadership.",
     highlight: false,
   },
-  {
-    degree: "Executive Learning — Product & AI",
-    institution: "Self-directed & Online Certifications",
-    years: "2023 – 2024",
-    desc: "Completed structured programs in data analytics, project management, and AI — supplementing engineering studies with product-specific skills.",
-    highlight: true,
-  },
 ];
 
 const Education = () => (
