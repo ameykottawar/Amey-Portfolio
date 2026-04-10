@@ -1,9 +1,14 @@
 const bullets = [
-  "Drove delivery of 15+ product launches collaborating with engineering, design, marketing, and operations teams",
-  "Built and launched 2 key features improving checkout and product discovery, increasing sales conversion by 40%",
-  "Designed and implemented an AI-powered chatbot and automated knowledge workflows, reducing support load",
-  "Led rebranding and migration of Arcatron to mobility.myfrido, improving product discovery and simplifying the customer journey",
-  "Analyzed customer feedback and usage data to identify friction points, improving customer experience score by 30%",
+  "Owned end-to-end product lifecycle across 15+ launches (idea → research → validation → launch → feedback → iteration), ensuring alignment and measurable outcomes",
+  "Acted as a Product Owner, defining PRDs, user stories, and sprint priorities while collaborating closely with engineering, design, and cross-functional teams",
+  "Delivered high-impact features leading to a 40% increase in conversions and 30% improvement in customer experience through data-driven iterations",
+  "Built and led a post-launch feedback loop, analyzing inputs from users, sales, and support to continuously refine product performance",
+  "Conducted on-ground user research and testing, identifying explicit and unarticulated customer pain points to improve product-market fit",
+  "Designed and implemented an AI-powered chatbot and automated workflows, reducing support load and improving knowledge accessibility",
+  "Translated market research and competitive analysis (India & global) into product strategy and roadmap decisions",
+  "Collaborated with vendors and internal teams to drive product customizations and manufacturing feasibility",
+  "Created detailed PRDs for in-house manufactured products, bridging product, engineering, and production teams",
+  "Partnered with marketing, sales, and R&D to execute go-to-market strategies, including rebranding initiatives",
 ];
 
 const Experience = () => (
