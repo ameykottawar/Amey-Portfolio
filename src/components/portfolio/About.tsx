@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react";
+import profilePhoto from "@/assets/Product (1).png";
 
 const stats = [
   { value: 15, suffix: "+", label: "Product Launches" },
@@ -45,16 +46,19 @@ const About = () => (
       <span className="font-body text-xs tracking-[0.3em] uppercase text-warm-muted reveal">001 — About</span>
       <div className="mt-12 grid md:grid-cols-2 gap-12 md:gap-16">
         <div className="reveal">
-          <div className="aspect-[3/4] w-full max-w-md rounded-lg overflow-hidden relative" style={{ backgroundColor: "#D0C4BC" }}>
-            <div className="absolute inset-0 flex items-center justify-center font-body text-sm text-warm-muted">
-              [ Photo ]
-            </div>
+          <div className="aspect-[3/4] w-full max-w-md rounded-lg overflow-hidden relative group" style={{ backgroundColor: "#D0C4BC" }}>
+            <img 
+              src={profilePhoto} 
+              alt="Amey Kottawar" 
+              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+              loading="lazy"
+            />
             <div className="absolute bottom-0 left-0 right-0 h-2 bg-foreground" />
           </div>
         </div>
         <div className="reveal" style={{ transitionDelay: "0.1s" }}>
           <p className="font-body text-sm leading-relaxed text-warm-muted">
-           I’m a product builder focused on turning real user problems into scalable, high-impact solutions.
+           I'm a product builder focused on turning real user problems into scalable, high-impact solutions.
 Currently driving end-to-end product development—from discovery to launch and iteration—while working closely with data and customer insights.
 I blend product thinking with AI tools, automation, and no-code to move faster and smarter.
 Strong believer in building, measuring, and continuously refining products that actually deliver value.
