@@ -6,8 +6,8 @@ const Footer = () => (
         <p className="font-body text-xs text-warm-muted mt-1">Product · AI · Builder</p>
       </div>
       <div className="flex items-center gap-6">
-        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="font-body text-xs text-foreground hover:underline">LinkedIn</a>
-        <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="font-body text-xs text-foreground hover:underline">GitHub</a>
+        <a href="https://www.linkedin.com/in/amey-kottawar-b8473b211/" target="_blank" rel="noopener noreferrer" className="font-body text-xs text-foreground hover:underline">LinkedIn</a>
+        <a href="https://github.com/ameykottawar" target="_blank" rel="noopener noreferrer" className="font-body text-xs text-foreground hover:underline">GitHub</a>
         <a href="mailto:ameykottawar@gmail.com" className="font-body text-xs text-foreground hover:underline">Email</a>
         <a href="tel:+918830509728" className="font-body text-xs text-foreground hover:underline">Phone</a>
       </div>
