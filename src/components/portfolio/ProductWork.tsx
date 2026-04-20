@@ -1,6 +1,7 @@
 import traveleaseLogo from "@/assets/travelease-logo.png";
 import parkplusLogo from "@/assets/parkplus-logo.png";
 import noiseLogo from "@/assets/noise-logo.png";
+import amazonLogo from "@/assets/amazon-logo.png"; // Add amazon logo to assets
 
 interface Card {
   tag: string;
@@ -31,6 +32,13 @@ const cards: Card[] = [
     desc: "Analyzed 500+ user reviews to uncover trust and usability issues in Park+'s car ownership super-app — proposing solutions for customer support, home screen clutter, and payment reliability.",
     link: "https://drive.google.com/file/d/1R-TG1HGudmRiIUUW67vO9ppeX_GHk4tx/view?usp=sharing",
     image: parkplusLogo,
+  },
+  {
+    tag: "Assignment",
+    title: "Amazon App — Rating Improvement Strategy",
+    desc: "Strategic analysis and solutions to improve Amazon app ratings by identifying key pain points, user friction, and proposing data-driven improvements for better user experience.",
+    link: "https://drive.google.com/file/d/1Ke6QB5K-ieEz-eJpFesafD5hnoORAVQ1/view?usp=sharing",
+    image: amazonLogo,
   },
 ];
 
@@ -66,7 +74,7 @@ const ProductWork = () => (
                 {c.title}
               </h3>
               <p className="relative font-body text-xs text-warm-muted mt-2 leading-relaxed flex-1">{c.desc}</p>
-              <a href={c.link || "#"} target={c.link ? "_blank" : undefined} rel={c.link ? "noopener noreferrer" : undefined} className="relative inline-block font-body text-xs text-foreground mt-4 group-hover:underline">
+              <a href={c.link || "#"} target={c.link ? "_blank" : undefined} rel={c.link ? "noopener noreferrer" : undefined} className="relative inline-block font-body text-xs text-foreground mt-4 hover:underline">
                 View →
               </a>
             </div>
