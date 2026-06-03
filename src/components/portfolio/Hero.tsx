@@ -14,13 +14,13 @@ const Hero = () => (
       </h1>
       <p className="hero-line font-serif italic text-warm-muted mt-6"
          style={{ fontSize: "clamp(1rem, 2.5vw, 1.5rem)" }}>
-        Aspiring Product Manager turning user problems into scalable, high-impact solutions.
+        Associate Product Manager turning user problems into scalable, high-impact solutions.
       </p>
       <div className="hero-line flex gap-4 mt-10">
         <a href="#work" className="inline-flex items-center gap-2 px-6 py-3 bg-foreground text-primary-foreground font-body text-sm tracking-wide rounded-full hover:opacity-90 transition-opacity">
           View My Work
         </a>
-        <a href="https://drive.google.com/file/d/1xwwlfSfCoHR1NgmROVawNzULiCX5JdPs/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-6 py-3 border border-foreground text-foreground font-body text-sm tracking-wide rounded-full hover:bg-foreground hover:text-primary-foreground transition-colors">
+        <a href="https://drive.google.com/file/d/1xwwlfSfCoHR1NgmROVawNzULiCX5JdPs/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-6 py-3 border border-for[...]
           Download CV
         </a>
       </div>
